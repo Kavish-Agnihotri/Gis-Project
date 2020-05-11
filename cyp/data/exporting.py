@@ -193,7 +193,7 @@ class MODISExporter:
                                collection_id='MODIS/MOD09A1')
 
         # # pull_MODIS_entire_county_clip.py
-        self.export(folder_name='crop_yield-data_image', data_type='image',
+        self.export(folder_name='', data_type='image',
                     min_img_val=16000, max_img_val=100,
                     export_limit=export_limit, major_states_only=major_states_only,
                     check_if_done=check_if_done, download_folder=download_folder[0])
